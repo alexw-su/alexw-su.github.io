@@ -38,12 +38,7 @@ font-family: 'Poppins', sans-serif;
 	box-sizing:border-box;
 }
 body{
-	font-family: 'Poppins', sans-serif;
 	font-size:16px;
-	color: #676a81;
-	background: #fff;
-    max-width:1920px;
-    margin:0 auto;
 	overflow-x:hidden;
 }
 
@@ -57,14 +52,12 @@ a,a:hover,a:active,a:focus {
 h1,h2 {
     margin: 0;
     font-size: 16px;
-	font-family: 'Poppins', sans-serif;
 	text-transform: capitalize;
 }
 h3,h4,h5,h6 { 
 	margin: 0;
 	color:#ffde36;
     font-size: 16px;
-	font-family: 'Poppins', sans-serif;
 	text-transform: capitalize;
 }
 p {
@@ -72,9 +65,10 @@ p {
 	line-height:1.8;
 	color:#43485c;
 	font-size:14px;
-	font-family: 'Poppins', sans-serif;
 }
+
 img{border:none;max-width:100%; height:auto;}
+
 ul{
 	padding: 0;
     margin: 0 auto;
@@ -196,9 +190,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ffde36;}
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url(../images/about/welcome-banner.jpg)no-repeat;
+    background:url(../images/about/welcome-banner.jpg) no-repeat center;
     background-size:cover;
-    background-position: center;
     height:890px;
 }
 .welcome-hero:before{
